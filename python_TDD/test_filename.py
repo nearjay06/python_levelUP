@@ -12,11 +12,9 @@ class TestOrder(unittest.TestCase):
     def test_order_id_does_not_exist_in_both_lists(self):
        self.assertEqual(order_id_not_in_both_lists(2),False)
        
-
     def test_if_orders_added_to_the_list(self):
        self.assertEqual(orders_added_to_the_list(65),True)
        self.assertIn(65,pending_orders)
-
 
     def test_add_new_order(self):
       self.assertTrue(add_new_order(3))
