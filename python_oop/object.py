@@ -36,12 +36,12 @@ class Developer(Person):
  def walk (self):
   return super().walk() + 'with swag'
 
-  
  def learn (self):
       print (f"{self.name} is learning {self.language}")
 
 
 deborah = Developer('python',37,'kalungi',1.8,'female')
 deborah.learn()
+
 
 
